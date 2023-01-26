@@ -1,0 +1,6 @@
+#1 задание
+D = [int(input()) for i in range(8)]
+print(sum(x for i, x in enumerate(D) if i % 2 == 1))
+
+#2 задание
+print([2*x if x < 15 else x for x in D])
